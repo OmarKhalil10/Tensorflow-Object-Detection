@@ -2,7 +2,7 @@
 <p>This set of Notebooks provides a complete set of code to be able to train and leverage your own custom object detection model using the Tensorflow Object Detection API.
 <br/><br/>
 <img src="https://i.imgur.com/iE8PZlo.jpeg">
-
+## Automatic Number Plate Recognition using Tensorflow and EasyOCR
 ## Steps
 <br/>
 <b>Step 1.</b> Clone this repository: https://github.com/OmarKhalil10/Tensorflow-Object-Detection
