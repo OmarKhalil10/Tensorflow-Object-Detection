@@ -4,7 +4,7 @@
 <img src="https://i.imgur.com/iE8PZlo.jpeg">
 <br/><br/>
 # Automatic Number Plate Recognition using Tensorflow and EasyOCR
-## Steps
+<b>Steps</b>
 <br/>
 <b>Step 1.</b> Clone this repository: https://github.com/OmarKhalil10/Tensorflow-Object-Detection
 <br/><br/>
