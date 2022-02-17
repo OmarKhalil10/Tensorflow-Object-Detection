@@ -7,8 +7,7 @@
 # Automatic Number Plate Recognition using Tensorflow and EasyOCR
 ## Steps:
 ### Prepare a folder to clone the repository
-<b>-<b> Open Cmd
-<b>-<b> Select the disk to crate your Project Folder.
+<b>-<b> Open Cmd then select the disk to crate your project folder.
 <pre>
 c:\Users\User>G:
 </pre>
