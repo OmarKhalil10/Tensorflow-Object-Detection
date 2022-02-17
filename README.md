@@ -7,6 +7,26 @@
 # Automatic Number Plate Recognition using Tensorflow and EasyOCR
 ## Steps
 <br/>
+
+### Prepare a folder to clone the repository
+<b>-<b> Open Cmd
+<b>-<b> Select the disk to crate your Project Folder.
+<pre>
+c:\Users\User>G:
+</pre>
+<b>-<b> Crate your folder using: mkdir ANPR.
+<pre>
+Ex: G:\>mkdir ANPR
+</pre>
+<b>-<b> Change your Directory to ANPR using cd ANPR.
+<pre>
+Ex: G:\>cd ANPR
+</pre>
+<b>-<b> Start Jupyter Notebook by typing (jupyter notebook).
+<pre>
+Ex: (anprsys) G:\ANPR>jupyter notebook
+</pre>
+<br/>
 <b>Step 1.</b> Clone this repository: https://github.com/OmarKhalil10/Tensorflow-Object-Detection
 <br/><br/>
 <b>Step 2.</b> Create a new virtual environment 
@@ -17,7 +37,7 @@ python -m venv anprsys
 <b>Step 3.</b> Activate your virtual environment
 <pre>
 source anpr/bin/activate # Linux
-.\anpr\Scripts\activate # Windows 
+.\anprsys\Scripts\activate # Windows 
 </pre>
 <br/>
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
