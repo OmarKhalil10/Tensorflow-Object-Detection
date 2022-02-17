@@ -44,6 +44,13 @@ pip install ipykernel
 python -m ipykernel install --user --name=anprsys
 </pre>
 <br/>
+<b>Mid_Step! [Alternative way for collecting images]</b><p> Download the car's images Dataset from Kaggle.com using this link:
+<pre>
+https://www.kaggle.com/andrewmvd/car-plate-detection
+</pre>
+<br/>
+<b>-<b><p> Then you have to download the archive from there and extract it, and split the data inside of it to (<b>training<b> and <b>testing<b>) data as I will expalin in <b>Step 6<b>. with 80% Training and 20% Testing into 2 seperate folders in the Tensorflow workspace.
+<br/>
 <b>Step 5.</b> Collect images using the Notebook <a href="https://github.com/OmarKhalil10/Tensorflow-Object-Detection/blob/main/1.%20Image%20Collection.ipynb">1. Image Collection.ipynb</a> - ensure you change the kernel to the virtual environment as shown below
 <img src="https://i.imgur.com/skBbV8c.png"> 
 <br/>
@@ -59,10 +66,21 @@ If not, resolve installation errors by referring to the <a href="https://github.
 <br /> <br/>
 <b>Step 9.</b> Once you get to step 6. Train the model, inside of the notebook, you may choose to train the model from within the notebook. I have noticed however that training inside of a separate terminal on a Windows machine you're able to display live loss metrics. 
 <img src="https://i.imgur.com/vzCXsJS.png"> 
-<br />
-You can see Jupyter Notebook logs for Training on cmd here.
+<br/>
+<p>You can see Jupyter Notebook logs for Training on cmd here.
 <img src="https://i.imgur.com/AIvPZxf.png"> 
-<br />
+<br/>
+<p>Wait until the end of the training, It may take a while!
+<img src="https://i.imgur.com/2I6wG6y.png"> 
+<b>NOTE:<b> 10000 Represent the (number of train steps) which means we have reach the end of the training with <b>Loss=<b>0.27281597 
+<br/>
+<p>You can look at the training <b>Check Points<b> at
+<pre>
+ANPR/Tensorflow/workspace/models/my_ssd_mobnet
+</pre>
+<img src="https://i.imgur.com/kCBo6Oo.png">
+<b>NOTE:<b> Check Points is the latest instance of our train model which we will use to go and perform our ANPR.
+<br/>
 <b>Step 10.</b> You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model e.g. 
 <pre> cd Tensorlfow/workspace/models/my_ssd_mobnet/eval</pre> 
 and open Tensorboard with the following command
